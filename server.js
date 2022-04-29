@@ -7,7 +7,7 @@ const quizRouter = require("./routes/quiz.js");
 const app = express();
 
 app.use(express.json());
-//Code edited by Anoop
+//new edit for new branch
 mongoose.connect(
   "mongodb://127.0.0.1:27017/testing_Server",
   {
